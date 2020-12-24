@@ -4,6 +4,9 @@ body {
   box-sizing: border-box;
   color: #35465d;
 }
+.jcd {
+	margin: 0 0 0 0;
+}
 .file-upload {
     padding: 3% 3%;
     margin: 0 auto;

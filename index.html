@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta property="og:title" content="정당 얼굴상테스트">
-		<meta property="og:description" content="AI가 당신의 얼굴을 분석하여 어울리는 대한민국 정당을 추천해드리는 서비스입니다.">
-		<meta name="description" content="AI가 당신의 얼굴을 분석하여 어울리는 대한민국 정당을 추천해드립니다. 당신의 얼굴상은 어느 정당과 잘 어울릴까요? 지금 결과를 확인해보세요!" />
+		<meta property="og:title" content="정당 얼굴상테스트" />
+		<meta
+			property="og:description"
+			content="AI가 당신의 얼굴을 분석하여 어울리는 대한민국 정당을 추천해드리는 서비스입니다."
+		/>
+		<meta
+			name="description"
+			content="AI가 당신의 얼굴을 분석하여 어울리는 대한민국 정당을 추천해드립니다. 당신의 얼굴상은 어느 정당과 잘 어울릴까요? 지금 결과를 확인해보세요!"
+		/>
 		<link rel="canonical" href="https://partyface.netlify.app" />
 		<meta name="naver-site-verification" content="8e3d9a69e08a540261629513e1887a2022a1c97d" />
 		<meta name="description" content="" />
@@ -48,15 +54,6 @@
 		></script>
 	</head>
 	<body>
-		<section class="youtube pb-3">
-			<div class="container youtube-cover d-flex flex-row-reverse align-items-center">
-				<a
-					href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg"
-					class="youtube-link"
-					>제작 도움: 조코딩 유튜브 채널</a
-				>
-			</div>
-		</section>
 		<section class="section">
 			<h1 class="title" style="font-family: 'Black Han Sans', sans-serif;">
 				정당 얼굴상테스트
@@ -66,7 +63,13 @@
 			</h2>
 		</section>
 		<section class="d-flex justify-content-center">
-			<p class="d-flex fs-5 fw-bold align-items-center pr-3" style="font-family: 'Yeon Sung', cursive;">여자</p>&nbsp;&nbsp;
+			<p
+				class="d-flex fs-5 fw-bold align-items-center pr-3"
+				style="font-family: 'Yeon Sung', cursive;"
+			>
+				여자
+			</p>
+			&nbsp;&nbsp;
 			<div>
 				<input type="checkbox" id="gender" />
 				<label for="gender">
@@ -76,7 +79,12 @@
 				</label>
 			</div>
 			&nbsp;&nbsp;
-			<p class="d-flex fs-5 fw-bold align-items-center pl-3" style="font-family: 'Yeon Sung', cursive;">남자</p>
+			<p
+				class="d-flex fs-5 fw-bold align-items-center pl-3"
+				style="font-family: 'Yeon Sung', cursive;"
+			>
+				남자
+			</p>
 		</section>
 		<script
 			class="jsbin"
@@ -96,7 +104,10 @@
 				/>
 				<div class="drag-text">
 					<img src="img/upload.svg" class="mt-5 pt-5 upload" />
-					<h3 class="mb-5 pb-5 pt-4 upload-text" style="font-family: 'Yeon Sung', cursive;">
+					<h3
+						class="mb-5 pb-5 pt-4 upload-text"
+						style="font-family: 'Yeon Sung', cursive;"
+					>
 						얼굴 사진을 올려놓거나 눌러서 업로드하세요!
 					</h3>
 				</div>
@@ -107,7 +118,9 @@
 					<div class="spinner-border" role="status">
 						<span class="sr-only">Loading...</span>
 					</div>
-					<p class="text-center" style="font-family: 'Yeon Sung', cursive;">AI가 당신의 얼굴상을 분석중입니다.</p>
+					<p class="text-center" style="font-family: 'Yeon Sung', cursive;">
+						AI가 당신의 얼굴상을 분석중입니다.
+					</p>
 				</div>
 				<p class="result-message"></p>
 				<div id="label-container" class="d-flex flex-column justify-content-around"></div>
@@ -119,12 +132,34 @@
 						class="try-again-btn"
 						onclick="window.location.reload();"
 					>
-						<span class="try-again-text">다른 사진으로 재시도</span>
+						<span class="try-again-text">다시하기</span>
 					</button>
 				</div>
-			</div><br>
-			<p class="text-center fs-6" style="font-family: 'Yeon Sung', cursive;">*사용자의 사진은 어디에도 저장되지 않습니다.</p>
+			</div>
+			<br />
+			<p class="text-center fs-6" style="font-family: 'Yeon Sung', cursive;">
+				*사용자의 사진은 어디에도 저장되지 않습니다.
+			</p>
 		</div>
+		<p align="middle" class="jcd">
+			<iframe
+				width="320"
+				height="180"
+				src="https://www.youtube.com/embed/s6SITKSN9Q0"
+				frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen=""
+			></iframe>
+		</p>
+		<section class="youtube text-center">
+			<div class="container youtube-cover align-items-center">
+				<a
+					href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg"
+					class="youtube-link"
+					>제작 도움: 조코딩 유튜브 채널</a
+				>
+			</div>
+		</section>
 		<footer class="footer pt-5 container d-flex justify-content-center">
 			<div>
 				<p>&copy; bxbums 2020. All Rights Reserved.</p>

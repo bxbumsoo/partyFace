@@ -1,2 +1,2 @@
 User-agent: *Allow:/
-Sitemap: https://partyface.netlify.app/sitemap.xml
+Sitemap: https://korpartyface.ga/sitemap.xml

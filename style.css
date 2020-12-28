@@ -380,7 +380,7 @@ input:checked + label > .knob {
   transform: translateX(49px) rotate(-140deg);
 }
 
-.ad-banner {
+.adb {
     width: 320px;
     margin: 0 auto;
 }

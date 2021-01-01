@@ -1,3 +1,4 @@
 User-agent: *
 Allow:/
 Sitemap:https://partyface.netlify.app/sitemap.xml
+#DaumWebMasterTool:4e516369e38cdea80f1031e5afbd647c23cf935764b323029dd3f643c50acdda:+F+x72zdaYadk1fA+1qm7g==
